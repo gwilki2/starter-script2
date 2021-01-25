@@ -58,14 +58,14 @@ cat <<EOT >> public/index.html
 EOT
 echo "import './style.scss'" >> src/index.js
 cat << EOT >> src/style.scss
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 \$testcolor: orange;
 * {
     box-sizing: border-box;
 }
 body {
     background-color: \$testcolor;
-    font-family: 'Muli', sans-serif;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
