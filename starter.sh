@@ -59,14 +59,10 @@ EOT
 echo "import './style.scss'" >> src/index.js
 cat << EOT >> src/style.scss
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
-
-
 \$testcolor: orange;
-
 * {
     box-sizing: border-box;
 }
-
 body {
     background-color: \$testcolor;
     font-family: 'Muli', sans-serif;
